@@ -7,7 +7,5 @@ def sum_multiples_3_or_5(upper_limit: int):
     return sum(multiples_of_3_or_5)
             
 
-
-
 if __name__ == "__main__":
-    sum_multiples_3_or_5(upper_limit=1000)
+    print(sum_multiples_3_or_5(upper_limit=1000))
